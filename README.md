@@ -1,23 +1,22 @@
 # [WIP] Building with Polygon ID Platform APIs
 
-by Steph ([oceans404](https://twitter.com/0ceans404))
+by Steph [oceans404](https://twitter.com/0ceans404)
 
-Official [Polygon ID Platform API docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/introduction/)
+<img width="876" alt="Polygon ID org to claims relationship" src="https://user-images.githubusercontent.com/91382964/204704674-21c1d312-9d2a-4533-b980-7c8e6e66c8c8.png">
 
-![Polygon ID org to claims relationship](https://0xpolygonid.github.io/tutorials/imgs/platform-api-1.png)
-
-Polygon ID Platform APIs empower you to programatically
+Polygon ID Platform APIs empower you to **programatically**
 
 - 🚢 Onboard to Polygon ID by creating an organization and issuer
 - 🏗️ Create reusable schema templates
 - 🤗 Generate claims offers (links to QR codes) to issue to users
+- 🚀 & so much more... check out the official [Polygon ID Platform API docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/introduction/) for the full list of APIs
 
 ## Repo setup
 
-1. [Install Node.js](https://nodejs.org/en/download/) 
-2. Star and clone repo `git clone https://github.com/oceans404/node-polygon-id-platform-apis`
-3. cd into repo `cd node-polygon-id-platform-apis`
-4. Create a .env file: `cp .env.example .env;`
+0. Pre-req: [Install Node.js](https://nodejs.org/en/download/) 
+1. Star and clone repo `git clone https://github.com/oceans404/node-polygon-id-platform-apis`
+2. cd into repo `cd node-polygon-id-platform-apis`
+3. Create a .env file: `cp .env.example .env;`
   - Within the .env file, update `POLYGON_ID_EMAIL` to your email. You will only be able to create one org account per email. I used the [+ sign in my email](https://people.cs.rutgers.edu/~watrous/plus-signs-in-email-addresses.html) to run multiple tests. ex: myemail@gmail.com, myemail+test0@gmail.com, myemail+test1@gmail.com, myemail+test2@gmail.com
   - Within the .env file, update `POLYGON_ID_PASSWORD` with a strong password (needs lowercase, uppercase, numbers, and special chars).
 
