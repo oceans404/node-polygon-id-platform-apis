@@ -14,17 +14,12 @@ Polygon ID Platform APIs empower you to programatically
 
 ## Repo setup
 
-- [Install Node.js](https://nodejs.org/en/download/)
-
-- Star and clone repo
-
-- cd into repo
-
-- Create a .env file: `cp .env.example .env;`
-
-- Within the .env file, update `POLYGON_ID_EMAIL` to your email. You will only be able to create one org account per email. I used the [+ sign in my email](https://people.cs.rutgers.edu/~watrous/plus-signs-in-email-addresses.html) to run multiple tests. ex: myemail@gmail.com, myemail+test0@gmail.com, myemail+test1@gmail.com, myemail+test2@gmail.com
-
-- Within the .env file, update `POLYGON_ID_PASSWORD` with a strong password (needs lowercase, uppercase, numbers, and special chars).
+1. [Install Node.js](https://nodejs.org/en/download/) 
+2. Star and clone repo `git clone https://github.com/oceans404/node-polygon-id-platform-apis`
+3. cd into repo `cd node-polygon-id-platform-apis`
+4. Create a .env file: `cp .env.example .env;`
+  - Within the .env file, update `POLYGON_ID_EMAIL` to your email. You will only be able to create one org account per email. I used the [+ sign in my email](https://people.cs.rutgers.edu/~watrous/plus-signs-in-email-addresses.html) to run multiple tests. ex: myemail@gmail.com, myemail+test0@gmail.com, myemail+test1@gmail.com, myemail+test2@gmail.com
+  - Within the .env file, update `POLYGON_ID_PASSWORD` with a strong password (needs lowercase, uppercase, numbers, and special chars).
 
 
 ## Polygon ID Onboarding (Create Org and Issuer)
