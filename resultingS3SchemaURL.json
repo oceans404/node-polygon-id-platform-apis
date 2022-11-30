@@ -1,0 +1,27 @@
+{
+    "@context": [{
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "AboutMe": {
+            "@id": "https://s3.eu-west-1.amazonaws.com/polygonid-schemas/eb973a75-0ee3-4418-8e6d-f29a3ad3f84d.json-ld#AboutMe",
+            "@context" : {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "poly-vocab": "https://s3.eu-west-1.amazonaws.com/polygonid-schemas/eb973a75-0ee3-4418-8e6d-f29a3ad3f84d.vocab.schema.json",
+                "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+                "LikesPineappleOnPizza": {
+                    "@id": "poly-vocab:LikesPineappleOnPizza",
+                    "@type": "serialization:IndexDataSlotA"
+                },
+                "PetCount": {
+                    "@id": "poly-vocab:PetCount",
+                    "@type": "serialization:IndexDataSlotB"
+                }
+            }
+        }
+    }]
+}
