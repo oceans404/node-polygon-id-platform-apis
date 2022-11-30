@@ -238,6 +238,13 @@ Note: this calls both the create claim and create qr code of offer APIs
 
 ```
 
+Open your Polygon ID Wallet Mobile app to scan the QR code from the [claim your offer page](https://platform-test.polygonid.com/claim-link/d38734b8-c66c-4de2-b0ed-f7ebd8a52c7b)
+
+
+<img width="1414" alt="Screen Shot 2022-11-29 at 7 48 12 PM" src="https://user-images.githubusercontent.com/91382964/204703305-fc7c4ff7-53bd-4803-8e35-a77cc5ec817a.png">
+
+
+
 ## Further Reading
 
 ### JWT and JWZ 
