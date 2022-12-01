@@ -161,13 +161,14 @@ Here's my result. I saved the schemaURL s3 file to `resultingS3SchemaURL.json` f
 
 [Create Schema endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/schemas/apis/#create-schema)
 
-#### 4. Store the console logged schema id (id: '77e48fa2-37e6-4818-b767-71588f6c0b73') in your notes. You'll need this id to create a claim.
 
 ## Create a Claim Offer
 
-#### 1. Set the schema id.
+#### 1. Set the schema id for your claim
 
-Find the claimOffer object within `yourData.js`. Update the schemaId property to the id field returned when you created a schema. This claim will follow that schema's template.
+Find the claimOffer object within `yourData.js`. Update the schemaId property to your schema id so the claim follows that schema's template. The schema id is the `id` field logged when you created a schema. Alternatively you can find out a schema's id on the ["Created Schemas" page](https://platform-test.polygonid.com/claiming/created-schemas) of Polygon ID Platform by clicking the schema and grabbing the id from the schemaID parameter in the url.
+
+![Find a Schema ID-high](https://user-images.githubusercontent.com/91382964/205096690-8edfa886-644c-4a65-9b85-ad6c9e61eaab.gif)
 
 #### 2. Create an array of attribute keys and values for your offer
 
