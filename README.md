@@ -1,4 +1,4 @@
-# [WIP] Building with Polygon ID Platform APIs
+# Building with Polygon ID Platform APIs
 
 by Steph [oceans404](https://twitter.com/0ceans404)
 
@@ -10,6 +10,8 @@ Polygon ID Platform APIs empower you to **programatically**
 - 🏗️ Create reusable schema templates
 - 🤗 Generate claims offers (links to QR codes) to issue to users
 - 🚀 & so much more... check out the official [Polygon ID Platform API docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/introduction/) for the full list of APIs
+
+This repo walks through programatically creating an Issuer in Node.js by creating an account (org and issuer), writing a claim schema, and generating issuable claims, sometimes called offers. You can use the same flow to build your own frontend Issuer website -- check out my repo: [generate-frontend-polygon-id-issuer](https://github.com/oceans404/generate-frontend-polygon-id-issuer)
 
 ## Repo setup
 
