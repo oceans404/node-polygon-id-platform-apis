@@ -56,7 +56,7 @@ Run `node api/createOrg.js`
 // }
 ```
 
-[Create Org endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/onboarding-api/apis/#create-org)
+[Create Org endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/onboarding-orgs/apis/#create-org)
 
 #### 2. Sign-in to an Organization Account
 
@@ -64,7 +64,7 @@ Run `node api/signinOrg.js`
 
 After you run the orgs sign in script, your generated JWT token is written to `token.js`
 
-[Sign In to Org endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/onboarding-api/apis/#sign-in)
+[Sign In to Org endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/onboarding-orgs/apis/#sign-in)
 
 #### 3. Activate Organization Account
 
@@ -79,7 +79,7 @@ Run `node api/ActivateAccount.js`
 
 Once you've activated your account, you generate a new token that is written to `token.js`
 
-[Activate Account endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/onboarding-api/apis/#activate-account)
+[Activate Account endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/onboarding-orgs/apis/#activate-account)
 
 
 #### 4. Create an Issuer
@@ -237,6 +237,8 @@ Note: this calls both the create claim and create qr code of offer APIs
 // Claim your offer: https://platform-test.polygonid.com/claim-link/d38734b8-c66c-4de2-b0ed-f7ebd8a52c7b
 
 ```
+
+[Create Offers endpoint docs](https://0xpolygonid.github.io/tutorials/issuer/platform-api/offers/apis/)
 
 Open your Polygon ID Wallet Mobile app to scan the QR code from the [claim your offer page](https://platform-test.polygonid.com/claim-link/d38734b8-c66c-4de2-b0ed-f7ebd8a52c7b)
 
