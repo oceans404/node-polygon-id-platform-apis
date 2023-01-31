@@ -24,9 +24,10 @@ const schemaStructure = {
     },
     // schemas can have 2 attributes max
     // {
-    //   name: "BestDayEver",
+    //   name: "DateSignedUp",
+    //   technicalName: "DateSignedUp",
     //   type: "date",
-    //   description: "What date was your favorite day of all time?",
+    //   description: "When did you register for Polygon @ the Pit?",
     // },
   ],
 };
