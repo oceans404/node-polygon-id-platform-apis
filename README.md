@@ -86,7 +86,7 @@ Once you've activated your account, you generate a new token that is written to 
 
 #### 4. Create an Issuer
 
-Optional: Update the issuerInfo object in `yourData.js` to name your Issuer. You'll be able to update these fields later within the [Polygon ID Platform UI](https://platform-test.polygonid.com/).
+Update the issuerInfo object in `yourData.js` to name your Issuer (must be unique across Polygon ID ecosystem!). You'll be able to update these fields later within the [Polygon ID Platform UI](https://platform-test.polygonid.com/).
 
 Run `node api/createIssuer.js`
 
